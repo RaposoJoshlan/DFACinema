@@ -7,3 +7,27 @@
 .formDiv {
     padding-left: 5%;
 }
+
+.navbar {
+	background-color: rgb(6, 20, 80);
+}
+.navbar a {
+	float: left;
+	padding: 10px;
+	color: rgb(255, 248, 248);
+	text-decoration: none;
+	font-size: 17px;
+	/* width: 21%; Four links of equal widths */
+	text-align: center;
+	margin: auto;
+}
+
+.footerr {
+	background-color: rgb(6, 20, 80);
+	color: white;
+	text-align: center;
+}
+
+footer .name {
+	color: white;
+}
