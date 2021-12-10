@@ -4,6 +4,10 @@
 	/* font-family: ; */
 }
 
+body {
+	font-family: "Clear Sans", sans-serif;
+}
+
 @font-face {
 	font-family: "Clear Sans";
 	font-style: normal;
