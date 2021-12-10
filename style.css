@@ -58,11 +58,12 @@ header ul li a {
 	row-gap: 20px;
 }
 .elf {
-	width: 100%;
+	justify-content: center;
+	box-sizing: border-box;
 }
 .row img {
 	height: 400px;
-	width: 100%;
+	
 }
 @media (prefers-reduced-motion: no-preference) {
 	.App-logo {
