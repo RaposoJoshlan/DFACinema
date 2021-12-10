@@ -79,3 +79,8 @@ footer .name {
 nav .image {
 	justify-content: left;
 }
+
+.marginwidth {
+	margin-left: 5%;
+	margin-right: 5%;
+}
