@@ -1,56 +1,53 @@
-
 .movie-image {
-    margin-top: 5%;
-    text-align: center;
+	margin-top: 5%;
+	text-align: center;
 }
 
 .block-movies {
-    margin-bottom: 5%;
+	margin-bottom: 5%;
 }
 
 .table-div {
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 
 body {
-  font-family: "Clear Sans", sans-serif;
+	font-family: "Clear Sans", sans-serif;
 }
 
 @font-face {
-  font-family: "Clear Sans";
-  font-style: normal;
-  font-weight: 400;
-  src: url("https://github.com/intel/clear-sans/blob/main/EOT/ClearSans-Regular.eot"); /* IE9 Compat Modes */
-  src: local("Clear Sans"), local("Clear-Sans"),
-    url("./fonts/ClearSans-Regular.eot#iefix")
-      format("embedded-opentype"),
-    /* Super Modern Browsers*/ url("./fonts/ClearSans-Regular.woff") 
-      format("woff"),
-    /* * Modern Browsers */ url("./fonts/ClearSans-Regular.ttf")
-      format("truetype"),
-    /* Safari, Android, iOS */
-       url("./fonts/ClearSans-Regular.svg#ClearSans") format("svg"); /*Legacy iOS */
+	font-family: "Clear Sans";
+	font-style: normal;
+	font-weight: 400;
+	src: url("https://github.com/intel/clear-sans/blob/main/EOT/ClearSans-Regular.eot"); /* IE9 Compat Modes */
+	src: local("Clear Sans"), local("Clear-Sans"),
+		url("./fonts/ClearSans-Regular.eot#iefix") format("embedded-opentype"),
+		/* Super Modern Browsers*/ url("./fonts/ClearSans-Regular.woff") format("woff"),
+		/* * Modern Browsers */ url("./fonts/ClearSans-Regular.ttf") format("truetype"),
+		/* Safari, Android, iOS */ url("./fonts/ClearSans-Regular.svg#ClearSans") format("svg"); /*Legacy iOS */
 }
 
 h5 {
-    text-align: center;
-    margin-bottom: 6%;
+	text-align: center;
+	margin-bottom: 6%;
 }
 
 .show-time {
-    text-align: left;
-    margin: 7%;
+	text-align: left;
+	margin: 7%;
 }
 
 .whats-on {
-    margin-left: 5%;
+	margin-left: 5%;
 }
 
 .navbar {
 	background-color: rgb(6, 20, 80);
+	display: block;
+	padding: 0;
 }
 .navbar a {
 	float: left;
@@ -60,7 +57,7 @@ h5 {
 	font-size: 17px;
 	/* width: 21%; Four links of equal widths */
 	text-align: center;
-	margin: auto;
+	/* margin: auto; */
 }
 
 .footerr {
@@ -74,5 +71,5 @@ footer .name {
 }
 
 .bannerimage {
-    margin-top:2%;
+	margin-top: 2%;
 }
