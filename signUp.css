@@ -48,3 +48,8 @@ body {
 footer .name {
 	color: white;
 }
+
+.signup-btn{
+	background-color: rgb(6, 20, 80);
+	color: white;
+}
